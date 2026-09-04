@@ -1,0 +1,5 @@
+[
+  {"query": "project manager", "rule": "current-title exact match should rank above historical-title-only match"},
+  {"query": "Pyhton", "rule": "Python skill profiles should still be discoverable"},
+  {"query": "Python", "rule": "exact skill match should rank above summary-only match"}
+]

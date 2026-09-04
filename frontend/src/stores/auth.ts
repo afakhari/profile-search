@@ -1,0 +1,3 @@
+import {create} from 'zustand'; import {api,setAccessToken} from '../api/client';
+type Auth={user:{username:string}|null;ready:boolean;login:(u:string,p:string)=>Promise<void>;restore:()=>Promise<void>;logout:()=>Promise<void>};
+export const useAuth=create<Auth>((set)=>({user:null,ready:false,login:async(username,password)=>{const t=await api.post<{access:string}>('/auth/login',{username,password});setAccessToken(t.access);set({user:{username},ready:true})},restore:async()=>{try{const t=await api.post<{access:string}>('/auth/refresh');setAccessToken(t.access);const user=await api.get<{username:string}>('/auth/me');set({user,ready:true})}catch{set({user:null,ready:true})}},logout:async()=>{await api.post('/auth/logout');setAccessToken(null);set({user:null})}}));

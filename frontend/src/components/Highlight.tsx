@@ -1,0 +1,1 @@
+export function Highlight({text}:{text:string}){const parts=text.split(/(\[\[H\]\]|\[\[\/H\]\])/);let active=false;return <>{parts.map((p,i)=>{if(p==='[[H]]'){active=true;return null}if(p==='[[/H]]'){active=false;return null}return active?<mark key={i}>{p}</mark>:p})}</>}

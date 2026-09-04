@@ -1,0 +1,47 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-profiles}
+      POSTGRES_USER: ${POSTGRES_USER:-profiles}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-profiles}
+    volumes: [postgres_data:/var/lib/postgresql/data]
+    healthcheck: {test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER}"], interval: 5s, timeout: 3s, retries: 15}
+    restart: unless-stopped
+  elasticsearch:
+    image: elasticsearch:8.19.0
+    environment: [discovery.type=single-node, xpack.security.enabled=false, ES_JAVA_OPTS=-Xms512m -Xmx512m]
+    volumes: [elasticsearch_data:/usr/share/elasticsearch/data]
+    healthcheck: {test: ["CMD-SHELL", "curl -fs http://localhost:9200/_cluster/health || exit 1"], interval: 8s, timeout: 5s, retries: 25}
+    restart: unless-stopped
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-profiles}:${POSTGRES_PASSWORD:-profiles}@postgres:5432/${POSTGRES_DB:-profiles}
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:-local-compose-secret-change-in-production}
+      DJANGO_DEBUG: ${DJANGO_DEBUG:-true}
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1,backend}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-http://localhost:8080}
+      DEMO_USERNAME: ${DEMO_USERNAME:-reviewer}
+      DEMO_PASSWORD: ${DEMO_PASSWORD:-ProfileSearch2026!}
+    volumes: ["./data:/data:ro", "./reports:/reports"]
+    depends_on:
+      postgres: {condition: service_healthy}
+      elasticsearch: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+      start_period: 10s
+    restart: unless-stopped
+  frontend:
+    build: ./frontend
+    ports: ["${APP_PORT:-8080}:8080"]
+    depends_on:
+      backend: {condition: service_healthy}
+    restart: unless-stopped
+volumes:
+  postgres_data:
+  elasticsearch_data:

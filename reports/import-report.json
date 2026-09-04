@@ -1,0 +1,2641 @@
+{
+  "source": "/data/raw/linkedin_profiles.csv",
+  "raw_rows": 336,
+  "imported_rows": 307,
+  "repaired_rows": 307,
+  "rejected_rows": 29,
+  "duplicate_rows": 37,
+  "parse_warnings": 0,
+  "rejection_reasons": {
+    "column_count:126_expected:77": 4,
+    "column_count:9_expected:77": 2,
+    "column_count:36_expected:77": 2,
+    "column_count:115_expected:77": 2,
+    "column_count:6_expected:77": 1,
+    "column_count:34_expected:77": 1,
+    "column_count:39_expected:77": 1,
+    "column_count:111_expected:77": 2,
+    "column_count:35_expected:77": 1,
+    "column_count:121_expected:77": 1,
+    "column_count:41_expected:77": 1,
+    "column_count:120_expected:77": 1,
+    "column_count:37_expected:77": 1,
+    "repeated_header": 1,
+    "column_count:100_expected:77": 2,
+    "column_count:122_expected:77": 1,
+    "column_count:38_expected:77": 1,
+    "column_count:107_expected:77": 1,
+    "column_count:133_expected:77": 1,
+    "column_count:124_expected:77": 1,
+    "column_count:47_expected:77": 1
+  },
+  "rows": [
+    {
+      "row_number": 2,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 3,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 4,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 5,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 6,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 7,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 8,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 9,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 10,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 11,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 12,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 13,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 14,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 15,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 16,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 17,
+      "status": "rejected",
+      "reason": "column_count:126_expected:77"
+    },
+    {
+      "row_number": 18,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 19,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 20,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 21,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 22,
+      "status": "rejected",
+      "reason": "column_count:126_expected:77"
+    },
+    {
+      "row_number": 23,
+      "status": "rejected",
+      "reason": "column_count:9_expected:77"
+    },
+    {
+      "row_number": 24,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 25,
+      "status": "rejected",
+      "reason": "column_count:36_expected:77"
+    },
+    {
+      "row_number": 26,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 27,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 28,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 29,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 30,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 31,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 32,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 33,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 34,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 35,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 36,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 37,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 38,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 39,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 40,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 41,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 42,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 43,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 44,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 45,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 46,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 47,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 48,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 49,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 50,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 51,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 52,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 53,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 54,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 55,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 56,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 57,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 58,
+      "status": "rejected",
+      "reason": "column_count:126_expected:77"
+    },
+    {
+      "row_number": 59,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 60,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 61,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 62,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 63,
+      "status": "rejected",
+      "reason": "column_count:126_expected:77"
+    },
+    {
+      "row_number": 64,
+      "status": "rejected",
+      "reason": "column_count:9_expected:77"
+    },
+    {
+      "row_number": 65,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 66,
+      "status": "rejected",
+      "reason": "column_count:36_expected:77"
+    },
+    {
+      "row_number": 67,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 68,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 69,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 70,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 71,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 72,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 73,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 74,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 75,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 76,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 77,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 78,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 79,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 80,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 81,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 82,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 83,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:33"
+      ]
+    },
+    {
+      "row_number": 84,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 85,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 86,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 87,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 88,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 89,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 90,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 91,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 92,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 93,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 94,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 95,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 96,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:54"
+      ]
+    },
+    {
+      "row_number": 97,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 98,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 99,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 100,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 101,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 102,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 103,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 104,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 105,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 106,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 107,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 108,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 109,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 110,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 111,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 112,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 113,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 114,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 115,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 116,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 117,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 118,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 119,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 120,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 121,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 122,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 123,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 124,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:36"
+      ]
+    },
+    {
+      "row_number": 125,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 126,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 127,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 128,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 129,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 130,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 131,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 132,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 133,
+      "status": "rejected",
+      "reason": "column_count:115_expected:77"
+    },
+    {
+      "row_number": 134,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 135,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 136,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 137,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 138,
+      "status": "rejected",
+      "reason": "column_count:6_expected:77"
+    },
+    {
+      "row_number": 139,
+      "status": "rejected",
+      "reason": "column_count:34_expected:77"
+    },
+    {
+      "row_number": 140,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 141,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 142,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 143,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 144,
+      "status": "rejected",
+      "reason": "column_count:115_expected:77"
+    },
+    {
+      "row_number": 145,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:52"
+      ]
+    },
+    {
+      "row_number": 146,
+      "status": "rejected",
+      "reason": "column_count:39_expected:77"
+    },
+    {
+      "row_number": 147,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 148,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 149,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 150,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 151,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 152,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 153,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 154,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 155,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 156,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 157,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 158,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 159,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 160,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 161,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 162,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 163,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 164,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 165,
+      "status": "rejected",
+      "reason": "column_count:111_expected:77"
+    },
+    {
+      "row_number": 166,
+      "status": "rejected",
+      "reason": "column_count:35_expected:77"
+    },
+    {
+      "row_number": 167,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 168,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 169,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 170,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 171,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 172,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 173,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 174,
+      "status": "rejected",
+      "reason": "column_count:121_expected:77"
+    },
+    {
+      "row_number": 175,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 176,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 177,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 178,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 179,
+      "status": "rejected",
+      "reason": "column_count:41_expected:77"
+    },
+    {
+      "row_number": 180,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 181,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 182,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 183,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 184,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 185,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 186,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 187,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 188,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 189,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 190,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 191,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 192,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 193,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 194,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 195,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 196,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 197,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 198,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 199,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 200,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 201,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 202,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 203,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 204,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 205,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 206,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 207,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 208,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 209,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 210,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 211,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 212,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 213,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 214,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 215,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 216,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 217,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 218,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 219,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years"
+      ]
+    },
+    {
+      "row_number": 220,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 221,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 222,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 223,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 224,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 225,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 226,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 227,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 228,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 229,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 230,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 231,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 232,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 233,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 234,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 235,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 236,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 237,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 238,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:47"
+      ]
+    },
+    {
+      "row_number": 239,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 240,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 241,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url"
+      ]
+    },
+    {
+      "row_number": 242,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 243,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 244,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 245,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 246,
+      "status": "rejected",
+      "reason": "column_count:120_expected:77"
+    },
+    {
+      "row_number": 247,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 248,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 249,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 250,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 251,
+      "status": "rejected",
+      "reason": "column_count:37_expected:77"
+    },
+    {
+      "row_number": 252,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 253,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 254,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 255,
+      "status": "rejected",
+      "reason": "repeated_header"
+    },
+    {
+      "row_number": 256,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:50"
+      ]
+    },
+    {
+      "row_number": 257,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 258,
+      "status": "rejected",
+      "reason": "column_count:100_expected:77"
+    },
+    {
+      "row_number": 259,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 260,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 261,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 262,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 263,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 264,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 265,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 266,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 267,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 268,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 269,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 270,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 271,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 272,
+      "status": "rejected",
+      "reason": "column_count:100_expected:77"
+    },
+    {
+      "row_number": 273,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 274,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 275,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 276,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 277,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:56"
+      ]
+    },
+    {
+      "row_number": 278,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 279,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 280,
+      "status": "rejected",
+      "reason": "column_count:122_expected:77"
+    },
+    {
+      "row_number": 281,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 282,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 283,
+      "status": "rejected",
+      "reason": "column_count:38_expected:77"
+    },
+    {
+      "row_number": 284,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 285,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 286,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 287,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 288,
+      "status": "rejected",
+      "reason": "column_count:111_expected:77"
+    },
+    {
+      "row_number": 289,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 290,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 291,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 292,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 293,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 294,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 295,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 296,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 297,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 298,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 299,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 300,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 301,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 302,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 303,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 304,
+      "status": "rejected",
+      "reason": "column_count:107_expected:77"
+    },
+    {
+      "row_number": 305,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 306,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 307,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 308,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 309,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 310,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 311,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 312,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 313,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 314,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 315,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 316,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 317,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 318,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 319,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 320,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 321,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 322,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 323,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 324,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 325,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 326,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "semantic_column_realign:49"
+      ]
+    },
+    {
+      "row_number": 327,
+      "status": "rejected",
+      "reason": "column_count:133_expected:77"
+    },
+    {
+      "row_number": 328,
+      "status": "rejected",
+      "reason": "column_count:124_expected:77"
+    },
+    {
+      "row_number": 329,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:39"
+      ]
+    },
+    {
+      "row_number": 330,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:39"
+      ]
+    },
+    {
+      "row_number": 331,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:39"
+      ]
+    },
+    {
+      "row_number": 332,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:39"
+      ]
+    },
+    {
+      "row_number": 333,
+      "status": "repaired",
+      "repairs": [
+        "removed_source_path_column",
+        "normalized_linkedin_url",
+        "semantic_column_realign:39"
+      ]
+    },
+    {
+      "row_number": 334,
+      "status": "rejected",
+      "reason": "column_count:47_expected:77"
+    },
+    {
+      "row_number": 335,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 336,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:48"
+      ]
+    },
+    {
+      "row_number": 337,
+      "status": "repaired",
+      "repairs": [
+        "normalized_linkedin_url",
+        "discarded_invalid_experience_years",
+        "semantic_column_realign:48"
+      ]
+    }
+  ]
+}

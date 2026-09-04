@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+
+:root{font-family:'Vazirmatn',Tahoma,Arial,sans-serif}
+body{direction:rtl;text-align:right}
+button,input,select,.eyebrow,.brand,.brand strong,.hero h1,.dashboard h1,.detail h1,.filter-head h2,.card-title h2,.login-copy h1,.login-card h2,.profile-hero h1,.panel>h2,.timeline h3,.education h3,.kpis strong,.chart h2{font-family:'Vazirmatn',Tahoma,Arial,sans-serif}
+.eyebrow,.brand strong{letter-spacing:0;text-transform:none}
+.filters{border-right:0;border-left:1px solid var(--line);padding-right:0;padding-left:25px}
+.profile-card blockquote{border-left:0;border-right:2px solid #69bea6;padding-left:0;padding-right:11px}
+.matched b{margin-right:0;margin-left:2px}
+.linkedin{margin-left:0;margin-right:auto}
+.timeline{border-left:0;border-right:1px solid #cdd9d4;margin-left:0;margin-right:7px;padding-left:0;padding-right:24px}
+.timeline i{left:auto;right:-30px}
+.searchbox input::placeholder,.filter-field input::placeholder{text-align:right}
+.login-card input[dir=ltr]{text-align:left}
+
+@media(max-width:760px){
+ .filters.open{inset:0 0 0 15%;padding:25px;box-shadow:-20px 0 50px #0003}
+ .mobile-filter{margin-right:0;margin-left:10px}
+ .linkedin{margin-right:0}
+}

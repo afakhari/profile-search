@@ -1,0 +1,38 @@
+[
+  {
+    "linkedin_id": "sample-ada",
+    "linkedin_url": "https://www.linkedin.com/in/ada-sample",
+    "full_name": "Ada Rahimi",
+    "current_job_title": "Senior Security Engineer",
+    "current_company_name": "Northstar Labs",
+    "industry": "Cybersecurity",
+    "location_country": "Iran",
+    "location_region": "Tehran",
+    "inferred_years_experience": 9,
+    "primary_email": "ada@example.test",
+    "mobile_phone": "+98-000-000-0000",
+    "summary": "Security engineer focused on incident response, Python automation and cloud detection engineering.",
+    "skills": ["Python", "Elasticsearch", "Incident Response", "Django"],
+    "experience": [
+      {"title": "Senior Security Engineer", "company_name": "Northstar Labs", "is_primary": true, "start_date": "2022-01-01", "summary": "Built detection and incident response systems."},
+      {"title": "Software Engineer", "company_name": "Atlas Systems", "is_primary": false, "start_date": "2017-01-01", "end_date": "2021-12-31", "summary": "Developed Python services."}
+    ],
+    "education": [{"school_name": "University of Tehran", "degrees": ["MSc"], "majors": ["Computer Engineering"], "end_date": "2017-01-01"}]
+  },
+  {
+    "linkedin_id": "sample-arash", "full_name": "Arash Kamali", "current_job_title": "Project Manager",
+    "current_company_name": "Example Group", "industry": "Information Technology", "location_country": "Canada",
+    "inferred_years_experience": 12, "summary": "Technology program leadership and delivery.",
+    "skills": ["Project Management", "Leadership", "PostgreSQL"],
+    "experience": [{"title": "Project Manager", "company_name": "Example Group", "is_primary": true, "start_date": "2020-01-01"}],
+    "education": [{"school_name": "Sharif University", "degrees": ["BSc"], "majors": ["Industrial Engineering"]}]
+  },
+  {
+    "linkedin_id": "sample-sara", "full_name": "Sara Mohammadi", "current_job_title": "Engineering Manager",
+    "current_company_name": "Cloud Works", "industry": "Software", "location_country": "Germany",
+    "inferred_years_experience": 11, "summary": "Engineering leader for distributed web platforms.",
+    "skills": ["Python", "React", "PostgreSQL", "Leadership"],
+    "experience": [{"title": "Project Manager", "company_name": "Blue Systems", "is_primary": false, "start_date": "2018-01-01", "end_date": "2020-01-01"}, {"title": "Engineering Manager", "company_name": "Cloud Works", "is_primary": true, "start_date": "2020-02-01"}],
+    "education": [{"school_name": "TU Berlin", "degrees": ["MSc"], "majors": ["Computer Science"]}]
+  }
+]
